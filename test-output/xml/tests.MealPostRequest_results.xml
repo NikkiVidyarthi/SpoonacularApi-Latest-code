@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAPI"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.364">
+    <properties></properties>
+
+
+
+            <testcase
+                name="mealPlan"
+                time="0.364"
+                classname="tests.MealPostRequest">
+            </testcase>
+</testsuite>

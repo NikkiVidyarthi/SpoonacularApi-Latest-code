@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="RestAPI" verbose="100">
+
+        <classes>
+
+            <class name="tests.PostRequest">
+                <methods>
+                    <include name="newLogin"/>
+                </methods>
+            </class>
+<class name="tests.MealPostRequest">
+    <methods>
+        <include name="mealPlan"/>
+      <!-- <include name="testNutritionalValueCalculation"/>-->
+    </methods>
+</class>
+
+
+            <class name="tests.Shoppingcarttest">
+                <methods>
+                    <include name="Shopping"/>
+                </methods>
+            </class>
+
+
+<class name="tests.IngredientsAvailability">
+    <methods>
+        <include name="verifyIngredientsAvailability"/>
+    </methods>
+</class>
+
+            <class name="tests.WeekendWineCheck">
+                <methods>
+                    <include name="checkWineForWeekendMeals"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
